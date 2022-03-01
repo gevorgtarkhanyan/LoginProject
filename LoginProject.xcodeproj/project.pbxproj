@@ -18,10 +18,10 @@
 		C8AB64E727C392C9007706B6 /* LoginProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AB64E627C392C9007706B6 /* LoginProjectTests.swift */; };
 		C8AB64F127C392C9007706B6 /* LoginProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AB64F027C392C9007706B6 /* LoginProjectUITests.swift */; };
 		C8AB64F327C392C9007706B6 /* LoginProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AB64F227C392C9007706B6 /* LoginProjectUITestsLaunchTests.swift */; };
-		C8AB650027C3952D007706B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8AB64FF27C3952D007706B6 /* GoogleService-Info.plist */; };
 		C8AB650227C3DD3A007706B6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AB650127C3DD3A007706B6 /* LoginViewController.swift */; };
 		C8AB650427C3F3D2007706B6 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AB650327C3F3D2007706B6 /* RegistrationViewController.swift */; };
 		C8AB650627C4F53E007706B6 /* SuccesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AB650527C4F53E007706B6 /* SuccesViewController.swift */; };
+		C8D29BFB27CBBF0400BB05E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8D29BFA27CBBF0400BB05E0 /* GoogleService-Info.plist */; };
 		F12E9B3BC4DD469FF5B496CC /* Pods_LoginProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533C6F929E17003B74080030 /* Pods_LoginProjectTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,10 +64,10 @@
 		C8AB64EC27C392C9007706B6 /* LoginProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AB64F027C392C9007706B6 /* LoginProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProjectUITests.swift; sourceTree = "<group>"; };
 		C8AB64F227C392C9007706B6 /* LoginProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C8AB64FF27C3952D007706B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C8AB650127C3DD3A007706B6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C8AB650327C3F3D2007706B6 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		C8AB650527C4F53E007706B6 /* SuccesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccesViewController.swift; sourceTree = "<group>"; };
+		C8D29BFA27CBBF0400BB05E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		E16C87FF09B04B05227C23CE /* Pods-LoginProject-LoginProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginProject-LoginProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoginProject-LoginProjectUITests/Pods-LoginProject-LoginProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,8 +141,8 @@
 				C8AB650327C3F3D2007706B6 /* RegistrationViewController.swift */,
 				C8AB650527C4F53E007706B6 /* SuccesViewController.swift */,
 				C8AB64D527C392C4007706B6 /* Main.storyboard */,
-				C8AB64FF27C3952D007706B6 /* GoogleService-Info.plist */,
 				C8AB64D827C392C9007706B6 /* Assets.xcassets */,
+				C8D29BFA27CBBF0400BB05E0 /* GoogleService-Info.plist */,
 				C8AB64DA27C392C9007706B6 /* LaunchScreen.storyboard */,
 				C8AB64DD27C392C9007706B6 /* Info.plist */,
 			);
@@ -289,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8AB64DC27C392C9007706B6 /* LaunchScreen.storyboard in Resources */,
-				C8AB650027C3952D007706B6 /* GoogleService-Info.plist in Resources */,
+				C8D29BFB27CBBF0400BB05E0 /* GoogleService-Info.plist in Resources */,
 				C8AB64D927C392C9007706B6 /* Assets.xcassets in Resources */,
 				C8AB64D727C392C4007706B6 /* Main.storyboard in Resources */,
 			);

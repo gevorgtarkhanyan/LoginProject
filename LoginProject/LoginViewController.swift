@@ -55,6 +55,7 @@ login()
             guard let strongSelf = self else {return}
             if let err = err {
                 print(err.localizedDescription)
+                
             }
             self!.checkUserInfo()
         }
