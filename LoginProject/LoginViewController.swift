@@ -8,10 +8,14 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import FacebookCore
+import FacebookLogin
+import FBSDKLoginKit
 
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var EmailTextField: UITextField!
+
     
     
     @IBOutlet weak var PasswordTextField: UITextField!
@@ -20,9 +24,11 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var ErorrLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         
     }
+    
+    
     
     override func viewDidAppear(_ animated: Bool) {
         checkUserInfo()
@@ -70,6 +76,15 @@ login()
                 present(vc!, animated: false)
             }
         }
-}
+    
+ 
 
+    
+    
+    
+    
+    }
+    
       
+
+

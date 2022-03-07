@@ -7,6 +7,8 @@ target 'LoginProject' do
 # Add the Firebase pod for Google Analytics
 pod 'Firebase/Analytics'
 pod 'Firebase/Auth'
+pod 'FacebookCore'
+pod 'FacebookLogin'
   # Pods for LoginProject
 
   target 'LoginProjectTests' do

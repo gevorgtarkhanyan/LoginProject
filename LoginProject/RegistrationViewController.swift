@@ -17,6 +17,7 @@ class RegistrationViewController: UIViewController {
     
     @IBOutlet weak var EmailTextField: UITextField!
     
+    
     @IBOutlet weak var PasswordTextField: UITextField!
     
     
