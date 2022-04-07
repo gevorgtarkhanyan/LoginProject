@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  LoginProject
 //
-//  Created by Gevorg Tarkhanyan on 21.02.22.
+//  Created by Gevorg Tarkhanyan on 11.03.22.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  LoginProject
 //
-//  Created by Gevorg Tarkhanyan on 21.02.22.
+//  Created by Gevorg Tarkhanyan on 11.03.22.
 //
 
 import UIKit
@@ -11,7 +11,9 @@ import FBSDKCoreKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    func application(_ application: UIApplication, open url : URL , sourceApplication: String?, annotation: Any) -> Bool {
+        return ApplicationDelegate.shared.application(application,open: url, sourceApplication: sourceApplication, annotation: annotation)
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -21,9 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    func application(_ application: UIApplication, open url : URL , sourceApplication: String?, annotation: Any) -> Bool {
-        return ApplicationDelegate.shared.application(application,open: url, sourceApplication: sourceApplication, annotation: annotation)
-    }
+    
     
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
